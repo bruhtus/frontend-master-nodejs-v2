@@ -1,3 +1,3 @@
-export const action = () => {
-  console.log('hello')
-}
+import fs from 'fs'
+
+console.log(fs)
