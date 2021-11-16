@@ -2,5 +2,11 @@
   "name": "app",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^13.0.2"
+  },
+  "scripts": {
+    "serve": "serve ../intro"
+  }
 }
