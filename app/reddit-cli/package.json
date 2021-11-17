@@ -2,5 +2,13 @@
   "name": "reddit-cli",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "dependencies": {
+    "node-fetch": "^3.1.0",
+    "open": "^8.4.0",
+    "yargs": "^17.2.1"
+  }
 }
