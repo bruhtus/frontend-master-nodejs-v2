@@ -27,6 +27,6 @@ app.get('/todo', (request, response) => {
   response.json(db)
 })
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
   console.log('Server on https://localhost:8000')
 })
