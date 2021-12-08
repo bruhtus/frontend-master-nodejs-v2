@@ -69,14 +69,14 @@ action()
 
 Use `.mjs` extension instead of `.js` extension. Still not sure what is the difference.
 
-the syntax (index.js):
+the syntax (index.mjs):
 ```javascript
 export const action = () => {
   console.log('hello')
 }
 ```
 
-the syntax (app.js):
+the syntax (app.mjs):
 ```javascript
 // because it's a named export,
 // we have to wrap the brackets around it to actually get the name
